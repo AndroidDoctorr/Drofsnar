@@ -42,7 +42,7 @@ namespace Drofsnar
                 } else if (bird == "VulnerableBirdHunter")
                 {
                     score += 200 * hunterScoreMultiplier;
-                    hunterScoreMultiplier = hunterScoreMultiplier * 2;
+                    hunterScoreMultiplier *= 2;
                 } else if (bird == "InvincibleBirdHunter")
                 {
                     Console.ForegroundColor = ConsoleColor.DarkMagenta;

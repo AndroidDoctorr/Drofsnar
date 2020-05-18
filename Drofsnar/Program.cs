@@ -14,8 +14,9 @@ namespace Drofsnar
             // NewGame game = new NewGame();
 
             // Pacman game = new Pacman();
-
+            // int points = 20;
             Game game = new Game();
+            // Console.WriteLine($"{points,-10} {"hello", -20}");
             game.SetEvents(GetEventsFromFile("C:/Users/andre/source/repos/Drofsnar/Drofsnar/game-sequence.txt"));
             game.Run();
         }
